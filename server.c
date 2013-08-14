@@ -155,7 +155,7 @@ int main ()
             printf("\n\nServer: File: %s sent to client!\n",fs_name);
             success = 1;
 
-            close(nsockfd);								//closeing the connection established from client side
+            close(nsockfd);								//closeing the connection established from SERVER side
             printf("Server : Connection with Client closed.\n");
             while(waitpid(-1, NULL, WNOHANG) > 0);
         
