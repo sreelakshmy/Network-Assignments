@@ -11,7 +11,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 
-#define PORT 20000
+#define PORT 21
 #define LENGTH 512 
 
 
